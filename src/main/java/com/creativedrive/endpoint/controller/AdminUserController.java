@@ -43,7 +43,7 @@ public class AdminUserController
 	@GetMapping(produces = MediaType.APPLICATION_JSON_UTF8_VALUE)	
 	public ResponseEntity<Iterable<User>> listar()
 	{
-		return this.buscar(null, null, null, null);
+		return this.buscar(null, 0, 5, "nome");
 	}
 	
 	@PostMapping(path = "/buscar", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
