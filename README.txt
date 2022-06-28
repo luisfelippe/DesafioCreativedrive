@@ -34,7 +34,7 @@ PARA QUE POSSA RODAR O SISTEMA E REALIZAR A AUTENTICAÇÃO E
 CONSUMIR OS ENDPOINTS, FAZ-SE NECESSÁRIO ANTES CADASTRAR UM 
 USUÁRIO DIRETAMENTE NO BANCO
 
-{"nome":"admin", "senha":"$2a$12$gIUpxvfn2kLYoCQ/rMycGeXJsOhTkKnL.03yr.Joc4W1MSzSezczm"}
+{"nome":"admin", "senha":"$2a$12$gIUpxvfn2kLYoCQ/rMycGeXJsOhTkKnL.03yr.Joc4W1MSzSezczm", "perfil":"ADMIN"}
 
 ESSA SENHA FOI GERADA POR BCRYPT(admin) no site abaixo:
 https://bcrypt-generator.com/
