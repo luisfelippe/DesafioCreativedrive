@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: DesafioCreativedriveDeployment
+spec:
+  selector:
+    matchLabels:
+      app: DesafioCreativedriveDeployment
+  template:
+    metadata:
+      labels:
+        app: DesafioCreativedriveDeployment
+    spec:
+      containers:
+      - name: microservice
+      image: desafio:1.0-SNAPSHOT
+      ports:
+      - containerPort: 8080

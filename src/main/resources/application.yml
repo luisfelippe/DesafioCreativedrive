@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: user
+  data:
+    mongodb:
+      uri: mongodb://docker:mongopw@localhost:27017/usermanager?connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-1
+#      uri: mongodb://localhost
+#      port: 27017
+#      database: usermanager
+#      username: docker
+#      password: mongopw
+#      authentication-database: admin
+  jmx:
+    enabled: false
+    
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG    
